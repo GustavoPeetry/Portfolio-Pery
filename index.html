@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Porfolio do Petry</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/superslides.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.10.2/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <div id="slides">
+      <div class="overlay"></div>
+      <div class="slides-container">
+        <img src="img/imagem1.jpg" alt="" />
+        <img src="img/imagem2.jpg" alt="" />
+      </div>
+      <div class="titleMessage">
+        <div class="heading">
+          <p class="main">Meu Portfolio!</p>
+          <p class="sub typed"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Barra de navegação -->
+    <nav id="navigation" class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#">Início</a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#about"
+              >Sobre mim<span class="sr-only"></span
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Habilidades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#stats">Estatísticas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contate-me</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Sobre mim -->
+    <div id="about" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <img class="aboutImage" src="img/sobre.jpg" alt="" />
+          </div>
+
+          <div class="col-md-7">
+            <h4 class="aboutMe">Permita-me apresentar!</h4>
+            <p>
+              Me chamo Gustavo Gabriel André Petry. Atualmente sou aluno do IFPR Campus Capanema, cursando o 4° ano de técnico em informática. Fiz parte de duas startups atuando como engenheiro de AI Junior, sendo membro de um squad ágil como time de desenvolvimento. Treinava modelos de detecção de objetos, tracking destes, e de sensores de área de interesse estáticos (ROI), também cuidava da integração desses modelos com os IoTs e provisionamento de infraestrutura para comportar as aplicações.
+              As principais tecnologias das quais possuo conhecimento são: linguagem Python, Flask, Keras, IBM Watson, Teachable Machine, CNN's, YoloV3 e OpenCV.
+            </p>
+
+            <p>
+              Também atuei em projetos de pesquisa e extensão no Campus Capanema, nas áreas de economia e levantamento de dados, e artes cênicas. Sou tesoureiro do Grêmio Estudantil do IFPR Campus Capanema pelo segundo ano consecutivo (2021-2022).
+            </p>
+            <p>
+              Tenho ótima capacidade comunicativa e sou bom com relações interpessoais e apresentações.
+            </p>
+            <p>
+              Atualmente, trabalho na área das operações comerciais (OPEC) na Rádio Massa FM Capanema 88,7, sendo responsável por parte da gestão de contratos, edição de áudio e pela programação e manutenção dos blocos comerciais da rádio.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Habilidades -->
+    <div id="skills" class="skillsSection section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2>MINHAS HABILIDADES</h2>
+            <p>Minhas habilidades sociais e de programação.</p>
+          </div>
+
+          <div class="owl-carousel owl-theme">
+            <div class="skill">
+              <span class="chart" data-percent="85">
+                <span class="percent">85</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>Comunicação</h4>
+            </div>
+
+            <div class="skill">
+              <span class="chart" data-percent="70">
+                <span class="percent">70</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>Trabalho em equipe</h4>
+            </div>
+
+            <div class="skill">
+              <span class="chart" data-percent="65">
+                <span class="percent">65</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>Python</h4>
+            </div>
+
+            <div class="skill">
+              <span class="chart" data-percent="40">
+                <span class="percent">40</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>Desenvolvimento de IA</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Estatísticas -->
+    <div id="stats" class="statsSection section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <div class="squareItem">
+              <div class="squareInnerContainer">
+                <div class="squareIcon">
+                  <i class="fas fa-globe"></i>
+                </div>
+                <div class="squareContent">
+                  <h2 class="counter">3</h2>
+                  <h3>Projetos concluídos</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <div class="squareItem">
+              <div class="squareInnerContainer">
+                <div class="squareIcon">
+                  <i class="fas fa-address-book"></i>
+                </div>
+                <div class="squareContent">
+                  <h2 class="counter">5000</h2>
+                  <h3>Horas de estudo</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <div class="squareItem">
+              <div class="squareInnerContainer">
+                <div class="squareIcon">
+                  <i class="fa fa-coffee"></i>
+                </div>
+                <div class="squareContent">
+                  <h2 class="counter">99999</h2>
+                  <h3>Cafés tomados</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <div class="squareItem">
+              <div class="squareInnerContainer">
+                <div class="squareIcon">
+                  <i class="fas fa-robot"></i>
+                </div>
+                <div class="squareContent">
+                  <h2 class="counter">5</h2>
+                  <h3>Robôs feitos</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contato -->
+    <div id="contact" class="contactSection section">
+      <div class="col-md-12 text-center">
+        <p class="subHeading">Você quer me contactar?</p>
+        <h2>Envie um email!</h2>
+        <a href="mailTo:gustavopetry.capanema@gmail.com" target="_blank" class="contactButton"
+          >Contate-me!!
+        </a>
+        <h2></h2>
+        <a href="https://wa.me/5546999230437/?text=Olá!" target="_blank" class="contactButton"
+          >Envie uma mensagem!
+        </a>
+        <h2></h2>
+        <a href="https://br.linkedin.com/in/gustavo-petry-90911a1a5" target="_blank" class="contactButton"
+          ><input type="image" src="img\ll.png"
+          width="100"
+          height="50" />
+        </a>
+        <a href="https://github.com/GustavoPeetry" target="_blank" class="contactButton"
+          ><input type="image" src="img\gl.png"
+          width="100"
+          height="50" />
+        </a>
+        <a href="https://www.instagram.com/gustavo_peetry/" target="_blank" class="contactButton"
+          ><input type="image" src="img\inl.png"
+          width="50"
+          height="50" />
+        </a>
+      </div>
+    </div>
+
+    <!-- Direitos autorais -->
+
+    <div class="copyrightSection">
+      <div class="col-md-12 text-center">
+        <p>
+          Copyright &copy; 2022 Alguns direitos reservados. | Template feito por Subuthai e modificado por Gustavo Gabriel André Petry.
+        </p>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/1.8.2/countUp.min.js"></script>
+    <script src="js/countUp-jquery.js"></script>
+    <script src="js/jquery.superslides.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.easypiechart.min.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
